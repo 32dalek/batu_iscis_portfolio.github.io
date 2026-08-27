@@ -42,13 +42,13 @@
   },
   "navigation": [
     {"key":"home","label":"Ana Sayfa","page":"home","file":"index.html"},
-    {"key":"research","label":"Araştırma","page":"research","file":"research.html"},
+    {"key":"about","label":"Hakkımda","page":"about","file":"about.html"},
     {"key":"projeler","label":"Projeler"},
     {"key":"publications","label":"Yayınlar","page":"publications","file":"publications.html"},
-    {"key":"about","label":"Hakkımda","page":"about","file":"about.html"},
     {"key":"calendar","label":"Takvim","page":"calendar","file":"calendar.html"},
     {"key":"contact","label":"İletişim","page":"contact","file":"contact.html"},
-    {"key":"news","label":"Haberler","page":"news","file":"news.html"}
+    {"key":"research","label":"Araştırma","page":"research","file":"research.html"},
+    {"key":"news","label":"Duyurular","page":"news","file":"news.html"}
   ],
   "pages": {
     "home": {
