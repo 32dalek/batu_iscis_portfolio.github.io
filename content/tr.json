@@ -42,10 +42,10 @@
   },
   "navigation": [
     {"key":"home","label":"Ana Sayfa","page":"home","file":"index.html"},
-    {"key":"about","label":"Hakkımda","page":"about","file":"about.html"},
+    {"key":"about","label":"Portfolyo","page":"about","file":"about.html"},
     {"key":"courses","label":"Projeler"},
     {"key":"publications","label":"Yayınlar","page":"publications","file":"publications.html"},
-    {"key":"calendar","label":"Takvim","page":"calendar","file":"calendar.html"},
+    {"key":"calendar","label":"Gelişim Rotası","page":"calendar","file":"calendar.html"},
     {"key":"contact","label":"İletişim","page":"contact","file":"contact.html"},
     {"key":"research","label":"Araştırma","page":"research","file":"research.html"},
     {"key":"news","label":"Duyurular","page":"news","file":"news.html"}
