@@ -44,6 +44,7 @@
     {"key":"home","label":"Ana Sayfa","page":"home","file":"index.html"},
     {"key":"publications","label":"Portfolyo","page":"publications","file":"publications.html"},
     {"key":"courses","label":"Projeler"},
+    {"key":"deneyim","label":"Deneyimler","page":"about","file":"about.html"},
     {"key":"calendar","label":"Gelişim Rotası","page":"calendar","file":"calendar.html"},
     {"key":"contact","label":"İletişim","page":"contact","file":"contact.html"},
     {"key":"research","label":"Araştırma","page":"research","file":"research.html"},
@@ -65,8 +66,8 @@
       "eventsTitle": "YAKLAŞAN ETKİNLİKLER",
       "upcomingEvents": ["yakında"]
     },
-    "about": {
-      "title": "Hakkımda",
+    "deneyim": {
+      "title": "Deneyimler",
       "aboutTitle": "HAKKIMDA",
       "aboutHtml": "",
       "educationTitle": "EĞİTİM",
