@@ -47,7 +47,7 @@
   },
   "navigation": [
     {"key":"home","label":"Ana Sayfa","page":"home","file":"index.html"},
-    {"key":"portfolyo","label":"Portfolyo","page":"publications","file":"publications.html"},
+    {"key":"iletisim","label":"İletişim","page":"contact","file":"iletisim.html"},
     {"key":"courses","label":"Projeler"},
     {"key":"about","label":"Deneyimler","page":"about","file":"deneyim.html"},
     {"key":"calendar","label":"Gelişim Rotası","page":"calendar","file":"calendar.html"},
@@ -59,10 +59,13 @@
     "home": {
       "title": "Ana Sayfa",
       "educationTitle": "Eğitim",
-      "education": [    
+     "education": [
+                  {
                     "degree": "Makine Mühendisliği + Mekatronik Yan Dal",
                     "school": "TOBB Ekonomi ve Teknoloji Üniversitesi",
-                    "year": "2028"],
+                    "year": "2028"
+                  }
+                ],
       "cvTitle": "CV",
       "cvText": "",
       "cvUrl": "",
@@ -90,7 +93,7 @@
       "education": [],
       "interestsTitle": "İLGİ ALANLARI",
       "researchInterests": []
-    }
+    },
     
     "research": {
       "title": "Araştırma",
