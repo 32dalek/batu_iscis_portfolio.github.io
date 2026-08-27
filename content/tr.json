@@ -31,14 +31,14 @@
     "footerPlaceholder": "Alt bilgi"
   },
   "profile": {
-    "name": "Ad Soyad",
-    "title": "Ünvan / Pozisyon",
-    "institution": "Kurum / Üniversite",
-    "department": "Bölüm / Birim",
-    "location": "Şehir / Ülke",
-    "shortBio": "Kısa profil metninizi buraya yazın.",
+    "name": "Batu İşci",
+    "title": "Makine - Mekatronik Mühendisliği Öğrencisi ",
+    "institution": "TOBB ETÜ",
+    "department": "",
+    "location": "Türkiye",
+    "shortBio": "Mekatronik yan dalı yapan bir Makine Mühendisliği öğrencisiyim ve temel ilgi alanım, pratik otomasyon ve robotik sistemler geliştirmektir. Dersler ve uygulamalı mühendislik projeleriyle edindiğim güçlü teorik altyapıyı, gerçek üretim problemlerine uygulayarak somut mühendislik çözümlerine dönüştürmeyi hedefliyorum.",
     "photo": "assets/img/profile-placeholder.svg",
-    "links": []
+    "links": ["www.linkedin.com/in/batu-isci"]
   },
   "navigation": [
     {"key":"home","label":"Ana Sayfa","page":"home","file":"index.html"},
