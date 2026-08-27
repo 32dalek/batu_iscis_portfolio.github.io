@@ -92,7 +92,10 @@
       "title": "Projeler",
       "intro": "",
       "items": [
-        {"id":"ders-1","code":"DERS 101","title":"Ders Başlığı","description":"","materials":[],"announcementsHtml":""}
+        {"id":"ders-4","code":"IHA projesi","title":"Ders Başlığı","description":"","materials":[],"announcementsHtml":""}
+        {"id":"ders-3","code":"TOBB ETU Racing","title":"Ders Başlığı","description":"","materials":[],"announcementsHtml":""}
+        {"id":"ders-2","code":"DALGA BOZAN (TEKNOFEST 2026 EH)","title":"Ders Başlığı","description":"","materials":[],"announcementsHtml":""}
+        {"id":"ders-1","code":"MYTH Kart (2026)","title":"Ders Başlığı","description":"","materials":[],"announcementsHtml":""}
       ]
     },
     "calendar": {
