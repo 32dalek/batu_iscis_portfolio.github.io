@@ -38,13 +38,18 @@
     "location": "Türkiye Ankara",
     "shortBio": "Mekatronik yan dalı yapan bir Makine Mühendisliği öğrencisiyim ve temel ilgi alanım, pratik otomasyon ve robotik sistemler geliştirmektir. Dersler ve uygulamalı mühendislik projeleriyle edindiğim güçlü teorik altyapıyı, gerçek üretim problemlerine uygulayarak somut mühendislik çözümlerine dönüştürmeyi hedefliyorum.",
     "photo": "assets/img/pf.jpeg",
-    "links": ["www.linkedin.com/in/batu-isci"]
+    "links": [
+              {
+                "label": "LinkedIn",
+                "url": "https://www.linkedin.com/in/batu-isci"
+              }
+            ]
   },
   "navigation": [
     {"key":"home","label":"Ana Sayfa","page":"home","file":"index.html"},
     {"key":"portfolyo","label":"Portfolyo","page":"publications","file":"publications.html"},
     {"key":"courses","label":"Projeler"},
-    {"key":"deneyim","label":"Deneyimler","page":"about","file":"about.html"},
+    {"key":"about","label":"Deneyimler","page":"about","file":"deneyim.html"}
     {"key":"calendar","label":"Gelişim Rotası","page":"calendar","file":"calendar.html"},
     {"key":"iletisim","label":"İletişim","page":"contact","file":"contact.html"},
     {"key":"research","label":"Araştırma","page":"research","file":"research.html"},
@@ -67,17 +72,25 @@
       "latestResearchTitle": "SON ÇALIŞMAM",
       "latestResearch": [],
       "eventsTitle": "YAKLAŞAN ETKİNLİKLER",
-      "upcomingEvents": ["yakında"]
+      "upcomingEvents": [
+                          {
+                            "title": "Yakında",
+                            "date": "",
+                            "description": "Yeni etkinlikler eklenecek.",
+                            "image": "assets/img/project-placeholder.svg",
+                            "url": ""
+                          }
+                        ]
     },
-    "deneyim": {
+    "about": {
       "title": "Deneyimler",
-      "aboutTitle": "HAKKIMDA",
+      "aboutTitle": "DENEYİMLER",
       "aboutHtml": "",
       "educationTitle": "EĞİTİM",
       "education": [],
-      "interestsTitle": "ARAŞTIRMA İLGİ ALANLARI",
+      "interestsTitle": "İLGİ ALANLARI",
       "researchInterests": []
-    },
+    }
     
     "research": {
       "title": "Araştırma",
