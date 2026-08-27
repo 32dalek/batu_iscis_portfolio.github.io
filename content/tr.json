@@ -53,7 +53,7 @@
     "home": {
       "title": "Ana Sayfa",
       "educationTitle": "Eğitim",
-      "education": ["TOBB Ekonomi ve Teknoloji Üniversitesi'nde Makine Mühendisliği lisans \neğitimimi (GPA: 3.26 / 4.00) ve Mekatronik Mühendisliği Yan Dal programını (GPA: 3.29 / 4.00) eşzamanlı olarak sürdürmekteyim. Ağustos 2028 itibarıyla çift yönlü disiplin eğitimimi tamamlamayı hedefliyorum."],
+      "education": ["TOBB Ekonomi ve Teknoloji Üniversitesi'nde Makine Mühendisliği lisans eğitimimi (GPA: 3.26 / 4.00) ve Mekatronik Mühendisliği Yan Dal programını (GPA: 3.29 / 4.00) eşzamanlı olarak sürdürmekteyim. Ağustos 2028 itibarıyla çift yönlü disiplin eğitimimi tamamlamayı hedefliyorum."],
       "cvTitle": "CV",
       "cvText": "",
       "cvUrl": "",
@@ -111,8 +111,8 @@
     "contact": {
       "title": "İletişim",
       "infoTitle": "İLETİŞİM BİLGİLERİ",
-      "email": "",
-      "phone": "",
+      "email": "batuisci@gmail.com\nbisci@etu.edu.tr",
+      "phone": "+90 507 011 52 44",
       "address": "",
       "formTitle": "MESAJ GÖNDER",
       "formEndpoint": ""
