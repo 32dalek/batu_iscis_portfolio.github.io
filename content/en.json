@@ -1,94 +1,176 @@
 {
   "labels": {
-    "namePlaceholder": "Full Name",
-    "titlePlaceholder": "Title / Position",
-    "institutionPlaceholder": "Institution / University",
-    "departmentPlaceholder": "Department / Unit",
-    "locationPlaceholder": "City / Country",
-    "shortBioPlaceholder": "Short profile text",
-    "websiteSection": "Academic Website",
-    "emptySection": "This section is intentionally empty so you can add your content.",
-    "itemTitle": "Content Title",
-    "details": "DETAILS",
-    "menu": "Menu",
-    "course": "Course",
-    "courseTitle": "Course Title",
-    "courseMaterials": "Course Materials",
-    "announcements": "Announcements",
-    "calendarHint": "Add your Google Calendar embed URL to pages.calendar.embedUrl in content/en.json.",
-    "emailPlaceholder": "email@example.com",
-    "phonePlaceholder": "Phone",
-    "addressPlaceholder": "Address",
-    "formName": "Name",
-    "formEmail": "Email",
-    "formSubject": "Subject",
-    "formMessage": "Message",
-    "send": "Send",
-    "formSetupHint": "To activate the form, add a Formspree endpoint to content/en.json.",
-    "formNotConfigured": "The contact form is not configured yet.",
-    "formSuccess": "Message sent.",
-    "formError": "Message could not be sent.",
-    "footerPlaceholder": "Footer"
+    "namePlaceholder": "Ad Soyad",
+    "titlePlaceholder": "Ünvan / Pozisyon",
+    "institutionPlaceholder": "Kurum / Üniversite",
+    "departmentPlaceholder": "",
+    "locationPlaceholder": "Şehir / Ülke",
+    "shortBioPlaceholder": "Kısa profil metni",
+    "websiteSection": "Akademik Web Sitesi",
+    "emptySection": "Bu bölüm içerik eklemeniz için boş bırakıldı.",
+    "itemTitle": "İçerik Başlığı",
+    "details": "DETAYLAR",
+    "menu": "Menü",
+    "course": "Ders",
+    "courseTitle": "Ders Başlığı",
+    "courseMaterials": "Ders Materyalleri",
+    "announcements": "Duyurular",
+    "calendarHint": "Google Calendar gömme bağlantısını content/tr.json içindeki pages.calendar.embedUrl alanına ekleyin.",
+    "emailPlaceholder": "e-posta@example.com",
+    "phonePlaceholder": "Telefon",
+    "addressPlaceholder": "Adres",
+    "formName": "Ad Soyad",
+    "formEmail": "E-posta",
+    "formSubject": "Konu",
+    "formMessage": "Mesaj",
+    "send": "Gönder",
+    "formSetupHint": "Formu aktif etmek için Formspree endpoint adresini content/tr.json dosyasına ekleyin.",
+    "formNotConfigured": "İletişim formu henüz yapılandırılmadı.",
+    "formSuccess": "Mesaj gönderildi.",
+    "formError": "Mesaj gönderilemedi.",
+    "footerPlaceholder": "Alt bilgi"
   },
   "profile": {
     "name": "Batu İşci",
-    "title": "Mechanical Engineering Student | Minor in Mechatronics",
+    "title": "Makine - Mekatronik Mühendisliği Öğrencisi ",
     "institution": "TOBB ETÜ",
     "department": "",
-    "location": "Türkiye",
-    "shortBio": "I am a Mechanical Engineering student with a minor in Mechatronics whose interest is building practical automation and robotics systems. With a strong theoretical foundation built through coursework and hands-on projects, I am now eager to turn these principles into real engineering solutions for manufacturing.",
+    "location": "Türkiye Ankara",
+    "shortBio": "Mekatronik yan dalı yapan bir Makine Mühendisliği öğrencisiyim ve temel ilgi alanım, pratik otomasyon ve robotik sistemler geliştirmektir. Dersler ve uygulamalı mühendislik projeleriyle edindiğim güçlü teorik altyapıyı, gerçek üretim problemlerine uygulayarak somut mühendislik çözümlerine dönüştürmeyi hedefliyorum.",
     "photo": "assets/img/pf.jpeg",
-    "links": ["www.linkedin.com/in/batu-isci"]
+    "links": [
+              {
+                "label": "LinkedIn",
+                "url": "https://www.linkedin.com/in/batu-isci"
+              }
+            ]
   },
   "navigation": [
-    {"key":"home","label":"Home","page":"home","file":"index.html"},
-    {"key":"research","label":"Research","page":"research","file":"research.html"},
-    {"key":"courses","label":"Courses"},
-    {"key":"publications","label":"Publications","page":"publications","file":"publications.html"},
-    {"key":"about","label":"About Me","page":"about","file":"about.html"},
-    {"key":"calendar","label":"Calendar","page":"calendar","file":"calendar.html"},
-    {"key":"contact","label":"Contact Me","page":"contact","file":"contact.html"},
-    {"key":"news","label":"News","page":"news","file":"news.html"}
+  {"key":"home","label":"Ana Sayfa","page":"home","file":"index.html"},
+  {"key":"courses","label":"Projeler"},
+  {"key":"about","label":"Deneyimler","page":"about","file":"deneyim.html"},
+  {"key":"calendar","label":"Gelişim Rotası","page":"calendar","file":"calendar.html"},
+  {"key":"iletisim","label":"İletişim","page":"contact","file":"iletisim.html"},
+  {"key":"research","label":"Araştırma","page":"research","file":"research.html"},
+  {"key":"news","label":"Duyurular","page":"news","file":"news.html"}
   ],
   "pages": {
     "home": {
-      "title": "Home",
-      "educationTitle": "Education",
-      "education": [],
+      "title": "Ana Sayfa",
+      "educationTitle": "Eğitim",
+     "education": [
+                  {
+                    "degree": "Makine Mühendisliği + Mekatronik Yan Dal",
+                    "school": "TOBB Ekonomi ve Teknoloji Üniversitesi",
+                    "year": "2028"
+                  }
+                ],
       "cvTitle": "CV",
       "cvText": "",
       "cvUrl": "",
-      "cvButton": "OPEN CV",
-      "interestsTitle": "Research Interests",
-      "researchInterests": [],
-      "latestResearchTitle": "MY LATEST RESEARCH",
+      "cvButton": "CV'Yİ AÇ",
+      "interestsTitle": "Araştırma İlgi Alanları",
+      "researchInterests": ["Saf mekanik tasarımların yazılım otomasyonu ve elektronik sistemlerle entegre edildiği mekatronik disiplini üzerinde yoğunlaşmaktır. Özellikle üretimin her basamağının otomatizasyona, donanım-yazılım entegrasyonuna dayalı ve otonom kontrol algoritmalarının oluşturduğu teknolojilere başlıca ilgi alanlarımı oluşturmaktadır. Robotik ve akıllı imalat odağında süreç optimizasyonu sağlayarak yenilikçi donanım çözümleri üretmeyi hedefliyorum."],
+      "latestResearchTitle": "SON ÇALIŞMAM",
       "latestResearch": [],
-      "eventsTitle": "UPCOMING EVENTS",
-      "upcomingEvents": []
+      "eventsTitle": "YAKLAŞAN ETKİNLİKLER",
+      "upcomingEvents": [
+                          {
+                            "title": "Yakında",
+                            "date": "",
+                            "description": "Yeni etkinlikler eklenecek.",
+                            "image": "assets/img/project-placeholder.svg",
+                            "url": ""
+                          }
+                        ]
     },
     "about": {
-      "title": "About Me",
-      "aboutTitle": "ABOUT ME",
+      "title": "Deneyimler",
+      "aboutTitle": "DENEYİMLER",
       "aboutHtml": "",
-      "educationTitle": "EDUCATION",
+      "educationTitle": "EĞİTİM",
       "education": [],
-      "interestsTitle": "RESEARCH INTERESTS",
+      "interestsTitle": "İLGİ ALANLARI",
       "researchInterests": []
     },
-    "research": {"title":"Research","intro":"","items":[]},
+    
+    "research": {
+      "title": "Araştırma",
+      "intro": "",
+      "items": []
+    },
+    
     "publications": {
-      "title":"Publications",
-      "journalTitle":"Journal Publications","journal":[],
-      "conferenceTitle":"Conference Publications","conference":[],
-      "otherTitle":"Other Publications / Projects","other":[]
+  "title": "Yayınlar",
+  "journalTitle": "Dergi Makaleleri",
+  "journal": [],
+  "conferenceTitle": "Konferans Yayınları",
+  "conference": [],
+  "otherTitle": "Diğer Yayınlar / Projeler",
+  "other": []
+},
+
+"courses": {
+  "title": "Projeler",
+  "intro": "",
+  "items": [
+    {
+      "id": "proje-4",
+      "code": "İHA Projesi",
+      "title": "Ders Başlığı",
+      "description": "",
+      "materials": [],
+      "announcementsHtml": ""
     },
-    "courses": {
-      "title":"Courses","intro":"",
-      "items":[{"id":"course-1","code":"COURSE 101","title":"Course Title","description":"","materials":[],"announcementsHtml":""}]
+    {
+      "id": "proje-3",
+      "code": "TOBB ETÜ Racing",
+      "title": "Ders Başlığı",
+      "description": "",
+      "materials": [],
+      "announcementsHtml": ""
     },
-    "calendar": {"title":"Calendar","embedUrl":""},
-    "contact": {"title":"Contact Me","infoTitle":"CONTACT INFORMATION","email":"","phone":"","address":"","formTitle":"SEND A MESSAGE","formEndpoint":""},
-    "news": {"title":"News","intro":"","items":[]}
+    {
+      "id": "proje-2",
+      "code": "DALGA BOZAN (TEKNOFEST 2026 EH)",
+      "title": "Ders Başlığı",
+      "description": "",
+      "materials": [],
+      "announcementsHtml": ""
+    },
+    {
+      "id": "proje-1",
+      "code": "MYTH Kart (2026)",
+      "title": "Ders Başlığı",
+      "description": "",
+      "materials": [],
+      "announcementsHtml": ""
+    }
+  ]
+},
+    
+    
+    "calendar": {
+      "title": "Takvim",
+      "embedUrl": ""
+    },
+    "contact": {
+      "title": "İletişim",
+      "infoTitle": "İLETİŞİM BİLGİLERİ",
+      "email": "batuisci@gmail.com\nbisci@etu.edu.tr",
+      "phone": "+90 507 011 52 44",
+      "address": "",
+      "formTitle": "MESAJ GÖNDER",
+      "formEndpoint": ""
+    },
+    "news": {
+      "title": "Haberler",
+      "intro": "",
+      "items": []
+    }
   },
-  "footer": {"left":"Institution / Department","right":"© 2026 Full Name"}
+  "footer": {
+    "left": "",
+    "right": "© 2026 Batu İşci Portfolyo"
+  }
 }
