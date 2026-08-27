@@ -54,7 +54,10 @@
     "home": {
       "title": "Ana Sayfa",
       "educationTitle": "Eğitim",
-      "education": ["TOBB Ekonomi ve Teknoloji Üniversitesi'nde Makine Mühendisliği lisans eğitimimi (GPA: 3.26 / 4.00) ve Mekatronik Mühendisliği Yan Dal programını (GPA: 3.29 / 4.00) eşzamanlı olarak sürdürmekteyim. Ağustos 2028 itibarıyla çift yönlü disiplin eğitimimi tamamlamayı hedefliyorum."],
+      "education": [    
+                    "degree": "Makine Mühendisliği + Mekatronik Yan Dal",
+                    "school": "TOBB Ekonomi ve Teknoloji Üniversitesi",
+                    "year": "2028"],
       "cvTitle": "CV",
       "cvText": "",
       "cvUrl": "",
