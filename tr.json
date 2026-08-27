@@ -1,10 +1,10 @@
-{
+  {
   "labels": {
-    "namePlaceholder": "Ad Soyad",
-    "titlePlaceholder": "Ünvan / Pozisyon",
-    "institutionPlaceholder": "Kurum / Üniversite",
-    "departmentPlaceholder": "Bölüm / Birim",
-    "locationPlaceholder": "Şehir / Ülke",
+    "namePlaceholder": "Batu İşci",
+    "titlePlaceholder": "",
+    "institutionPlaceholder": "TOBB ETÜ",
+    "departmentPlaceholder": "Makine Mühendisliği | Mekatronik Yan Dalı",
+    "locationPlaceholder": "Türkiye | Ankara",
     "shortBioPlaceholder": "Kısa profil metni",
     "websiteSection": "Akademik Web Sitesi",
     "emptySection": "Bu bölüm içerik eklemeniz için boş bırakıldı.",
