@@ -9,7 +9,7 @@
   document.documentElement.lang = lang;
 
   const page = document.body.dataset.page || 'home';
-  const contentPath = `content/${lang}.json`;
+  const contentPath = `content/${lang}.json?v=${Date.now()}`;
 
   const esc = (v='') =>
     String(v).replace(/[&<>'"]/g, s => ({
