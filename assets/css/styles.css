@@ -263,3 +263,11 @@ button, input, textarea, select { font: inherit; }
   .two-col, .three-col, .card-grid { grid-template-columns: 1fr; }
   .course-row, .footer-inner { flex-direction: column; align-items: flex-start; }
 }
+
+.profile-card p,
+.section p,
+.clean-list li,
+.item-card p,
+.publication-list li {
+  text-align: justify;
+}
