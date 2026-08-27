@@ -271,3 +271,9 @@ button, input, textarea, select { font: inherit; }
 .publication-list li {
   text-align: justify;
 }
+
+.profile-card p,
+.section p,
+.clean-list li {
+  white-space: pre-line;
+}
