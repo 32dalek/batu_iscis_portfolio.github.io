@@ -3,7 +3,7 @@
     "namePlaceholder": "Ad Soyad",
     "titlePlaceholder": "Ünvan / Pozisyon",
     "institutionPlaceholder": "Kurum / Üniversite",
-    "departmentPlaceholder": "Bölüm / Birim",
+    "departmentPlaceholder": "",
     "locationPlaceholder": "Şehir / Ülke",
     "shortBioPlaceholder": "Kısa profil metni",
     "websiteSection": "Akademik Web Sitesi",
@@ -43,7 +43,7 @@
   "navigation": [
     {"key":"home","label":"Ana Sayfa","page":"home","file":"index.html"},
     {"key":"about","label":"Hakkımda","page":"about","file":"about.html"},
-    {"key":"projeler","label":"Projeler"},
+    {"key":"courses","label":"Projeler"},
     {"key":"publications","label":"Yayınlar","page":"publications","file":"publications.html"},
     {"key":"calendar","label":"Takvim","page":"calendar","file":"calendar.html"},
     {"key":"contact","label":"İletişim","page":"contact","file":"contact.html"},
@@ -54,17 +54,17 @@
     "home": {
       "title": "Ana Sayfa",
       "educationTitle": "Eğitim",
-      "education": [],
+      "education": ["TOBB Ekonomi ve Teknoloji Üniversitesi'nde Makine Mühendisliği lisans \neğitimimi (GPA: 3.26 / 4.00) ve Mekatronik Mühendisliği Yan Dal programını (GPA: 3.29 / 4.00) eşzamanlı olarak sürdürmekteyim. Ağustos 2028 itibarıyla çift yönlü disiplin eğitimimi tamamlamayı hedefliyorum."],
       "cvTitle": "CV",
       "cvText": "",
       "cvUrl": "",
       "cvButton": "CV'Yİ AÇ",
       "interestsTitle": "Araştırma İlgi Alanları",
-      "researchInterests": [],
-      "latestResearchTitle": "SON ARAŞTIRMALARIM",
+      "researchInterests": ["Saf mekanik tasarımların yazılım otomasyonu ve elektronik sistemlerle entegre edildiği mekatronik disiplini üzerinde yoğunlaşmaktır. Özellikle üretimin her basamağının otomatizasyona, donanım-yazılım entegrasyonuna dayalı ve otonom kontrol algoritmalarının oluşturduğu teknolojilere başlıca ilgi alanlarımı oluşturmaktadır. Robotik ve akıllı imalat odağında süreç optimizasyonu sağlayarak yenilikçi donanım çözümleri üretmeyi hedefliyorum."],
+      "latestResearchTitle": "SON ÇALIŞMAM",
       "latestResearch": [],
       "eventsTitle": "YAKLAŞAN ETKİNLİKLER",
-      "upcomingEvents": []
+      "upcomingEvents": ["yakında"]
     },
     "about": {
       "title": "Hakkımda",
@@ -90,7 +90,7 @@
       "other": []
     },
     "courses": {
-      "title": "Dersler",
+      "title": "Projeler",
       "intro": "",
       "items": [
         {"id":"ders-1","code":"DERS 101","title":"Ders Başlığı","description":"","materials":[],"announcementsHtml":""}
