@@ -1,0 +1,94 @@
+{
+  "labels": {
+    "namePlaceholder": "Vor- und Nachname",
+    "titlePlaceholder": "Titel / Position",
+    "institutionPlaceholder": "Institution / Universität",
+    "departmentPlaceholder": "Fachbereich / Einheit",
+    "locationPlaceholder": "Stadt / Land",
+    "shortBioPlaceholder": "Kurzer Profiltext",
+    "websiteSection": "Akademische Webseite",
+    "emptySection": "Dieser Bereich ist absichtlich leer, damit Sie Ihre Inhalte hinzufügen können.",
+    "itemTitle": "Inhaltstitel",
+    "details": "DETAILS",
+    "menu": "Menü",
+    "course": "Kurs",
+    "courseTitle": "Kurstitel",
+    "courseMaterials": "Kursmaterialien",
+    "announcements": "Ankündigungen",
+    "calendarHint": "Fügen Sie die Google-Calendar-Einbettungs-URL unter pages.calendar.embedUrl in content/de.json ein.",
+    "emailPlaceholder": "email@beispiel.de",
+    "phonePlaceholder": "Telefon",
+    "addressPlaceholder": "Adresse",
+    "formName": "Name",
+    "formEmail": "E-Mail",
+    "formSubject": "Betreff",
+    "formMessage": "Nachricht",
+    "send": "Senden",
+    "formSetupHint": "Um das Formular zu aktivieren, tragen Sie einen Formspree-Endpunkt in content/de.json ein.",
+    "formNotConfigured": "Das Kontaktformular ist noch nicht eingerichtet.",
+    "formSuccess": "Nachricht gesendet.",
+    "formError": "Nachricht konnte nicht gesendet werden.",
+    "footerPlaceholder": "Fußzeile"
+  },
+  "profile": {
+    "name": "Vor- und Nachname",
+    "title": "Titel / Position",
+    "institution": "Institution / Universität",
+    "department": "Fachbereich / Einheit",
+    "location": "Stadt / Land",
+    "shortBio": "Schreiben Sie hier einen kurzen Profiltext.",
+    "photo": "assets/img/profile-placeholder.svg",
+    "links": []
+  },
+  "navigation": [
+    {"key":"home","label":"Startseite","page":"home","file":"index.html"},
+    {"key":"research","label":"Forschung","page":"research","file":"research.html"},
+    {"key":"courses","label":"Lehre"},
+    {"key":"publications","label":"Publikationen","page":"publications","file":"publications.html"},
+    {"key":"about","label":"Über mich","page":"about","file":"about.html"},
+    {"key":"calendar","label":"Kalender","page":"calendar","file":"calendar.html"},
+    {"key":"contact","label":"Kontakt","page":"contact","file":"contact.html"},
+    {"key":"news","label":"Neuigkeiten","page":"news","file":"news.html"}
+  ],
+  "pages": {
+    "home": {
+      "title": "Startseite",
+      "educationTitle": "Ausbildung",
+      "education": [],
+      "cvTitle": "Lebenslauf",
+      "cvText": "",
+      "cvUrl": "",
+      "cvButton": "CV ÖFFNEN",
+      "interestsTitle": "Forschungsinteressen",
+      "researchInterests": [],
+      "latestResearchTitle": "AKTUELLE FORSCHUNG",
+      "latestResearch": [],
+      "eventsTitle": "KOMMENDE VERANSTALTUNGEN",
+      "upcomingEvents": []
+    },
+    "about": {
+      "title": "Über mich",
+      "aboutTitle": "ÜBER MICH",
+      "aboutHtml": "",
+      "educationTitle": "AUSBILDUNG",
+      "education": [],
+      "interestsTitle": "FORSCHUNGSINTERESSEN",
+      "researchInterests": []
+    },
+    "research": {"title":"Forschung","intro":"","items":[]},
+    "publications": {
+      "title":"Publikationen",
+      "journalTitle":"Zeitschriftenartikel","journal":[],
+      "conferenceTitle":"Konferenzbeiträge","conference":[],
+      "otherTitle":"Weitere Publikationen / Projekte","other":[]
+    },
+    "courses": {
+      "title":"Lehre","intro":"",
+      "items":[{"id":"kurs-1","code":"KURS 101","title":"Kurstitel","description":"","materials":[],"announcementsHtml":""}]
+    },
+    "calendar": {"title":"Kalender","embedUrl":""},
+    "contact": {"title":"Kontakt","infoTitle":"KONTAKTINFORMATIONEN","email":"","phone":"","address":"","formTitle":"NACHRICHT SENDEN","formEndpoint":""},
+    "news": {"title":"Neuigkeiten","intro":"","items":[]}
+  },
+  "footer": {"left":"Institution / Fachbereich","right":"© 2026 Vor- und Nachname"}
+}
