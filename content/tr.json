@@ -42,7 +42,7 @@
   },
   "navigation": [
     {"key":"home","label":"Ana Sayfa","page":"home","file":"index.html"},
-    {"key":"publications","label":"Portfolyo","page":"publications","file":"publications.html"},
+    {"key":"portfolyo","label":"Portfolyo","page":"publications","file":"publications.html"},
     {"key":"courses","label":"Projeler"},
     {"key":"deneyim","label":"Deneyimler","page":"about","file":"about.html"},
     {"key":"calendar","label":"Gelişim Rotası","page":"calendar","file":"calendar.html"},
@@ -75,11 +75,13 @@
       "interestsTitle": "ARAŞTIRMA İLGİ ALANLARI",
       "researchInterests": []
     },
+    
     "research": {
       "title": "Araştırma",
       "intro": "",
       "items": []
     },
+    
     "publications": {
   "title": "Yayınlar",
   "journalTitle": "Dergi Makaleleri",
