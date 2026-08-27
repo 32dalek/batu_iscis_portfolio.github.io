@@ -37,8 +37,8 @@
     "department": "",
     "location": "Türkiye",
     "shortBio": "I am a Mechanical Engineering student with a minor in Mechatronics whose interest is building practical automation and robotics systems. With a strong theoretical foundation built through coursework and hands-on projects, I am now eager to turn these principles into real engineering solutions for manufacturing.",
-    "photo": "assets/img/profile-placeholder.svg",
-    "links": []
+    "photo": "assets/img/pf.jpeg",
+    "links": ["www.linkedin.com/in/batu-isci"]
   },
   "navigation": [
     {"key":"home","label":"Home","page":"home","file":"index.html"},
