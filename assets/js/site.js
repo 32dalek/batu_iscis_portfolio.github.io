@@ -443,80 +443,53 @@
   }
 
 
-  function renderAbout(data, p) {
+  function renderPortfolio(data, p) {
+  const items = p.items || [];
 
-    const edu = (p.education || [])
-      .map(x => `
-        <li>
-          <strong>${esc(x.period || '')}</strong>
-          ${esc(x.text || '')}
-        </li>
-      `)
-      .join('');
+  const portfolioItems = items.map(item => `
+    <a
+      class="portfolio-card"
+      href="portfolio-item.html?lang=${lang}&id=${encodeURIComponent(item.id)}"
+    >
+      <img
+        src="${esc(item.image || 'assets/img/project-placeholder.svg')}"
+        alt="${esc(item.title || '')}"
+      >
 
+      <div class="portfolio-card-body">
+        ${item.project ? `
+          <div class="eyebrow">${esc(item.project)}</div>
+        ` : ''}
 
-    const ints = (p.researchInterests || [])
-      .map(x => `<li>${esc(x)}</li>`)
-      .join('');
+        <h2>${esc(item.title || data.labels.itemTitle)}</h2>
 
+        ${item.description ? `
+          <p>${esc(item.description)}</p>
+        ` : ''}
 
-    return `
-      ${pageHeading(data,p)}
+        <span class="portfolio-detail-link">
+          ${esc(data.labels.details)} →
+        </span>
+      </div>
+    </a>
+  `).join('');
 
-      <section class="section">
+  return `
+    ${pageHeading(data, p)}
 
-        <h2>
-          ${esc(p.aboutTitle)}
-        </h2>
+    <section class="section">
+      <p>${esc(p.intro || '')}</p>
+    </section>
 
-        <div>
-          ${
-            p.aboutHtml ||
-            `<p class="placeholder">${esc(data.labels.emptySection)}</p>`
-          }
-        </div>
-
-      </section>
-
-
-      <section class="section">
-
-        <div class="two-col">
-
-          <div>
-
-            <h2>
-              ${esc(p.educationTitle)}
-            </h2>
-
-            ${
-              edu
-                ? `<ul class="clean-list">${edu}</ul>`
-                : `<p class="placeholder">${esc(data.labels.emptySection)}</p>`
-            }
-
-          </div>
-
-
-          <div>
-
-            <h2>
-              ${esc(p.interestsTitle)}
-            </h2>
-
-            ${
-              ints
-                ? `<ul class="clean-list">${ints}</ul>`
-                : `<p class="placeholder">${esc(data.labels.emptySection)}</p>`
-            }
-
-          </div>
-
-        </div>
-
-      </section>
-    `;
-  }
+    <section class="section">
+      ${
+        portfolioItems
+          ? `<div class="portfolio-grid">${portfolioItems}</div>`
+          : `<p class="placeholder">${esc(data.labels.emptySection)}</p>`
+      }
+    </section>
+  `;
+}
 
 
   function renderCardsPage(data, p) {
