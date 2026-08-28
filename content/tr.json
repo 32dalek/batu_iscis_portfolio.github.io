@@ -3,174 +3,326 @@
     "namePlaceholder": "Ad Soyad",
     "titlePlaceholder": "Ünvan / Pozisyon",
     "institutionPlaceholder": "Kurum / Üniversite",
-    "departmentPlaceholder": "",
+    "departmentPlaceholder": "Bölüm / Program",
     "locationPlaceholder": "Şehir / Ülke",
     "shortBioPlaceholder": "Kısa profil metni",
-    "websiteSection": "Akademik Web Sitesi",
-    "emptySection": "Bu bölüm içerik eklemeniz için boş bırakıldı.",
+
+    "websiteSection": "Akademik ve Teknik Portfolyo",
+    "emptySection": "Bu bölüm için henüz içerik eklenmedi.",
     "itemTitle": "İçerik Başlığı",
     "details": "DETAYLAR",
     "menu": "Menü",
-    "course": "Ders",
-    "courseTitle": "Ders Başlığı",
-    "courseMaterials": "Ders Materyalleri",
-    "announcements": "Duyurular",
-    "calendarHint": "Google Calendar gömme bağlantısını content/tr.json içindeki pages.calendar.embedUrl alanına ekleyin.",
+
+    "course": "Proje",
+    "courseTitle": "Proje Özeti",
+    "courseMaterials": "Dosyalar / Kaynaklar",
+    "announcements": "Teknik Notlar",
+
+    "portfolio": "Teknik Portfolyo",
+    "portfolioProject": "PROJE",
+    "portfolioPurpose": "PARÇANIN AMACI",
+    "portfolioBoundaryConditions": "SINIR KOŞULLARI VE TASARIM KISITLARI",
+    "portfolioDesignProcess": "NASIL ELDE EDİLDİ?",
+    "portfolioManufacturing": "NASIL ÜRETİLECEK?",
+    "portfolioTools": "KULLANILAN ARAÇLAR",
+    "portfolioDrawing": "TEKNİK ÇİZİM / CAD",
+    "portfolioBack": "PORTFOLYOYA DÖN",
+
+    "calendarHint": "Gelişim rotası içeriği henüz eklenmedi.",
+
     "emailPlaceholder": "e-posta@example.com",
     "phonePlaceholder": "Telefon",
     "addressPlaceholder": "Adres",
+
     "formName": "Ad Soyad",
     "formEmail": "E-posta",
     "formSubject": "Konu",
     "formMessage": "Mesaj",
     "send": "Gönder",
+
     "formSetupHint": "Formu aktif etmek için Formspree endpoint adresini content/tr.json dosyasına ekleyin.",
     "formNotConfigured": "İletişim formu henüz yapılandırılmadı.",
     "formSuccess": "Mesaj gönderildi.",
     "formError": "Mesaj gönderilemedi.",
+
     "footerPlaceholder": "Alt bilgi"
   },
+
   "profile": {
     "name": "Batu İşci",
-    "title": "Makine - Mekatronik Mühendisliği Öğrencisi ",
-    "institution": "TOBB ETÜ",
-    "department": "",
-    "location": "Türkiye Ankara",
-    "shortBio": "Mekatronik yan dalı yapan bir Makine Mühendisliği öğrencisiyim ve temel ilgi alanım, pratik otomasyon ve robotik sistemler geliştirmektir. Dersler ve uygulamalı mühendislik projeleriyle edindiğim güçlü teorik altyapıyı, gerçek üretim problemlerine uygulayarak somut mühendislik çözümlerine dönüştürmeyi hedefliyorum.",
+    "title": "Makine Mühendisliği Öğrencisi | Mekatronik Yan Dalı",
+    "institution": "TOBB Ekonomi ve Teknoloji Üniversitesi",
+    "department": "Makine Mühendisliği · Mekatronik Mühendisliği Yan Dal Programı",
+    "location": "Ankara, Türkiye",
+
+    "shortBio": "TOBB ETÜ'de Makine Mühendisliği lisans ve Mekatronik yan dal öğrencisiyim. Formula Student kapsamında mekanik tasarım, güç aktarma ve fren sistemleri üzerinde çalışıyor; C++ ile tasarım otomasyonu ve mühendislik hesap araçları geliştiriyorum. Mekanik tasarım, robotik, kontrol ve üretim süreçlerinin yazılımla entegrasyonu temel ilgi alanlarımı oluşturuyor.",
+
     "photo": "assets/img/pf.jpeg",
+
     "links": [
-              {
-                "label": "LinkedIn",
-                "url": "https://www.linkedin.com/in/batu-isci"
-              }
-            ]
+      {
+        "label": "LinkedIn",
+        "url": "https://www.linkedin.com/in/batu-isci"
+      }
+    ]
   },
+
   "navigation": [
-  {"key":"home","label":"Ana Sayfa","page":"home","file":"index.html"},
-  {"key":"courses","label":"Projeler"},
-  {"key":"about","label":"Deneyimler","page":"about","file":"deneyim.html"},
-  {"key":"calendar","label":"Gelişim Rotası","page":"calendar","file":"calendar.html"},
-  {"key":"iletisim","label":"İletişim","page":"contact","file":"iletisim.html"},
-  {"key":"research","label":"Araştırma","page":"research","file":"research.html"},
-  {"key":"news","label":"Duyurular","page":"news","file":"news.html"}
+    {
+      "key": "home",
+      "label": "Ana Sayfa",
+      "page": "home",
+      "file": "index.html"
+    },
+    {
+      "key": "courses",
+      "label": "Projeler"
+    },
+    {
+      "key": "about",
+      "label": "Teknik Portfolyo",
+      "page": "about",
+      "file": "deneyim.html"
+    },
+    {
+      "key": "calendar",
+      "label": "Gelişim Rotası",
+      "page": "calendar",
+      "file": "calendar.html"
+    },
+    {
+      "key": "iletisim",
+      "label": "İletişim",
+      "page": "contact",
+      "file": "iletisim.html"
+    },
+    {
+      "key": "research",
+      "label": "Araştırma",
+      "page": "research",
+      "file": "research.html"
+    },
+    {
+      "key": "news",
+      "label": "Duyurular",
+      "page": "news",
+      "file": "news.html"
+    }
   ],
+
   "pages": {
     "home": {
       "title": "Ana Sayfa",
+
       "educationTitle": "Eğitim",
-     "education": [
-                  {
-                    "degree": "Makine Mühendisliği + Mekatronik Yan Dal",
-                    "school": "TOBB Ekonomi ve Teknoloji Üniversitesi",
-                    "year": "2028"
-                  }
-                ],
+
+      "education": [
+        {
+          "degree": "Makine Mühendisliği Lisans",
+          "school": "TOBB Ekonomi ve Teknoloji Üniversitesi",
+          "year": "2024–2028"
+        },
+        {
+          "degree": "Mekatronik Mühendisliği Yan Dal Programı",
+          "school": "TOBB Ekonomi ve Teknoloji Üniversitesi",
+          "year": "2026–2028"
+        }
+      ],
+
       "cvTitle": "CV",
-      "cvText": "",
+      "cvText": "Güncel özgeçmişimi bu bölüm üzerinden görüntüleyebilirsiniz.",
       "cvUrl": "",
       "cvButton": "CV'Yİ AÇ",
-      "interestsTitle": "Araştırma İlgi Alanları",
-      "researchInterests": ["Saf mekanik tasarımların yazılım otomasyonu ve elektronik sistemlerle entegre edildiği mekatronik disiplini üzerinde yoğunlaşmaktır. Özellikle üretimin her basamağının otomatizasyona, donanım-yazılım entegrasyonuna dayalı ve otonom kontrol algoritmalarının oluşturduğu teknolojilere başlıca ilgi alanlarımı oluşturmaktadır. Robotik ve akıllı imalat odağında süreç optimizasyonu sağlayarak yenilikçi donanım çözümleri üretmeyi hedefliyorum."],
-      "latestResearchTitle": "SON ÇALIŞMAM",
-      "latestResearch": [],
-      "eventsTitle": "YAKLAŞAN ETKİNLİKLER",
+
+      "interestsTitle": "Teknik İlgi Alanları",
+
+      "researchInterests": [
+        "Mekanik tasarım ve mekatronik sistem geliştirme",
+        "Robotik, otomasyon ve kontrol sistemleri",
+        "C++ ile mühendislik hesapları ve tasarım otomasyonu",
+        "Güç aktarma ve fren sistemleri",
+        "Üretilebilirlik odaklı mekanik tasarım",
+        "Mekanik, elektronik ve yazılım entegrasyonu"
+      ],
+
+      "latestResearchTitle": "SON TEKNİK ÇALIŞMAM",
+
+      "latestResearch": [
+        {
+          "title": "C++ ile Tasarım ve Mühendislik Süreci Otomasyonu",
+          "date": "2026 · Devam ediyor",
+          "description": "Mekanik sistemlerde tekrarlanan mühendislik hesaplarını ve revizyon süreçlerini hızlandırmak amacıyla C++ tabanlı hesap ve tasarım araçları geliştiriyorum.",
+          "image": "assets/img/project-placeholder.svg",
+          "url": ""
+        }
+      ],
+
+      "eventsTitle": "YAKLAŞAN GELİŞMELER",
+
       "upcomingEvents": [
-                          {
-                            "title": "Yakında",
-                            "date": "",
-                            "description": "Yeni etkinlikler eklenecek.",
-                            "image": "assets/img/project-placeholder.svg",
-                            "url": ""
-                          }
-                        ]
+        {
+          "title": "Yeni teknik çalışmalar",
+          "date": "",
+          "description": "Yeni proje, üretim ve teknik portfolyo içerikleri eklenecek.",
+          "image": "assets/img/project-placeholder.svg",
+          "url": ""
+        }
+      ]
     },
+
     "about": {
-      "title": "Deneyimler",
-      "aboutTitle": "DENEYİMLER",
-      "aboutHtml": "",
-      "educationTitle": "EĞİTİM",
-      "education": [],
-      "interestsTitle": "İLGİ ALANLARI",
-      "researchInterests": []
-    },
-    
-    "research": {
-      "title": "Araştırma",
-      "intro": "",
+      "title": "Teknik Portfolyo",
+
+      "intro": "Bu bölümde geliştirdiğim mekanik parçalar, CAD modelleri ve teknik çizimler ayrı portfolyo öğeleri olarak sunulmaktadır. Her öğede parçanın sistem içerisindeki amacı, tasarım sınır koşulları, tasarım süreci ve planlanan üretim yöntemi açıklanmaktadır.",
+
+      "itemTemplate": {
+        "id": "parca-adi-01",
+        "title": "Parça Adı",
+        "project": "İlgili Proje",
+        "date": "2026",
+        "image": "assets/img/portfolio/parca-adi-01.png",
+
+        "description": "Parçanın kısa açıklaması.",
+
+        "purpose": "Bu parçanın sistem içerisindeki temel görevi ve neden gerekli olduğu.",
+
+        "boundaryConditions": [
+          "Parçaya etki eden kuvvet veya momentler.",
+          "Geometrik yerleşim kısıtları.",
+          "Bağlantı noktaları ve montaj şartları.",
+          "Ağırlık, rijitlik veya güvenlik gereksinimleri."
+        ],
+
+        "designProcess": "Parçanın hangi hesaplar, geometrik gereksinimler, iterasyonlar veya analizler sonucunda bu forma ulaştığı.",
+
+        "manufacturing": "Malzeme seçimi, üretim yöntemi, toleranslar, gerekli son işlemler ve montaj yaklaşımı.",
+
+        "tools": [
+          "SolidWorks",
+          "Fusion 360"
+        ]
+      },
+
       "items": []
     },
-    
-    "publications": {
-  "title": "Yayınlar",
-  "journalTitle": "Dergi Makaleleri",
-  "journal": [],
-  "conferenceTitle": "Konferans Yayınları",
-  "conference": [],
-  "otherTitle": "Diğer Yayınlar / Projeler",
-  "other": []
-},
 
-"courses": {
-  "title": "Projeler",
-  "intro": "",
-  "items": [
-    {
-      "id": "proje-4",
-      "code": "İHA Projesi",
-      "title": "Ders Başlığı",
-      "description": "",
-      "materials": [],
-      "announcementsHtml": ""
+    "research": {
+      "title": "Araştırma ve Teknik Çalışmalar",
+
+      "intro": "Mekanik tasarım, mühendislik otomasyonu, robotik ve kontrol sistemleri odağında yürüttüğüm araştırma ve geliştirme çalışmalarını bu bölümde topluyorum.",
+
+      "items": [
+        {
+          "title": "C++ ile Tasarım Otomasyonu",
+          "date": "2026 · Devam ediyor",
+          "description": "Tekrarlanan mühendislik hesaplarını ve tasarım revizyonlarını hızlandırmaya yönelik C++ tabanlı araçların geliştirilmesi.",
+          "image": "assets/img/project-placeholder.svg",
+          "url": ""
+        },
+        {
+          "title": "Mekanik Sistem Analizleri",
+          "date": "2026",
+          "description": "Yük, dayanım ve sistem gereksinimlerinin mekanik tasarım kararlarına dönüştürülmesi üzerine çalışmalar.",
+          "image": "assets/img/project-placeholder.svg",
+          "url": ""
+        }
+      ]
     },
-    {
-      "id": "proje-3",
-      "code": "TOBB ETÜ Racing",
-      "title": "Ders Başlığı",
-      "description": "",
-      "materials": [],
-      "announcementsHtml": ""
+
+    "publications": {
+      "title": "Yayınlar",
+      "journalTitle": "Dergi Makaleleri",
+      "journal": [],
+      "conferenceTitle": "Konferans Yayınları",
+      "conference": [],
+      "otherTitle": "Diğer Yayınlar / Projeler",
+      "other": []
     },
-    {
-      "id": "proje-2",
-      "code": "DALGA BOZAN (TEKNOFEST 2026 EH)",
-      "title": "Ders Başlığı",
-      "description": "",
-      "materials": [],
-      "announcementsHtml": ""
+
+    "courses": {
+      "title": "Projeler",
+
+      "intro": "Mühendislik, otomasyon ve ekip çalışması kapsamında yer aldığım projeler.",
+
+      "items": [
+        {
+          "id": "proje-4",
+          "code": "İHA Projesi",
+          "title": "İnsansız Hava Aracı Geliştirme Çalışması",
+
+          "description": "İHA projesine ait mekanik tasarım, sistem entegrasyonu ve doğrulama çalışmalarının teknik dokümantasyonu bu bölümde sunulacaktır.",
+
+          "materials": [],
+          "announcementsHtml": ""
+        },
+
+        {
+          "id": "proje-3",
+          "code": "TOBB ETÜ Racing",
+          "title": "Formula Student · Güç Aktarma, Fren Sistemleri ve Tasarım Otomasyonu",
+
+          "description": "TOBB ETÜ Racing Formula Student takımında mekanik tasarım, güç aktarma ve fren sistemleri üzerinde çalışıyorum. Güç aktarım organlarında kullanılan makine elemanlarının tasarımı ve üretime uygun hale getirilmesi üzerine görev alırken; mühendislik hesaplarını ve revizyon süreçlerini hızlandırmak amacıyla C++ tabanlı otomasyon araçları geliştiriyorum.",
+
+          "materials": [],
+          "announcementsHtml": "<p>Çalışma alanları: mekanik tasarım, güç aktarım sistemleri, fren sistemleri, üretilebilirlik, sistem optimizasyonu ve C++ ile mühendislik otomasyonu.</p>"
+        },
+
+        {
+          "id": "proje-2",
+          "code": "DALGA BOZAN (TEKNOFEST 2026 EH)",
+          "title": "Elektronik Harp Sistemleri · Mekanik Tasarım",
+
+          "description": "TEKNOFEST Elektronik Harp projesinde ekipteki makine mühendisi olarak radyo antenlerinin Fusion 360 üzerinde modellenmesi, rüzgar yükü ve elektronik ekipman ağırlığına karşı mekanik doğrulama çalışmaları ile ortak mekanik bileşenlerin tasarımında görev aldım. Yapısal ve yük analizlerinde MATLAB tabanlı hesaplamalardan yararlandım.",
+
+          "materials": [],
+          "announcementsHtml": "<p>Proje Kavramsal Tasarım Raporu aşamasına kadar ilerletildi. Mekanik tasarımlar iki alt sistemin elektronik donanım ihtiyaçlarına göre uyarlandı.</p>"
+        },
+
+        {
+          "id": "proje-1",
+          "code": "MYTH Kart (2026)",
+          "title": "TOBB ETÜ Öğrenci İndirim Kartı Projesi",
+
+          "description": "TOBB ETÜ'deki ilk kapsamlı öğrenci indirim kartı projelerinden biri olan MYTH Kart'ın hayata geçirilmesinde aktif rol aldım. Öğrenciler ile yerel işletmeler arasında iş birliği kurulması, kurumsal görüşmeler, projenin pazarlanması ve operasyonel süreçlerin yürütülmesi konularında görev aldım.",
+
+          "materials": [],
+          "announcementsHtml": "<p>Proje süreci iletişim, zaman yönetimi, kurumsal iş birliği ve operasyonel koordinasyon konusunda deneyim kazanmamı sağladı.</p>"
+        }
+      ]
     },
-    {
-      "id": "proje-1",
-      "code": "MYTH Kart (2026)",
-      "title": "Ders Başlığı",
-      "description": "",
-      "materials": [],
-      "announcementsHtml": ""
-    }
-  ]
-},
-    
-    
+
     "calendar": {
-      "title": "Takvim",
+      "title": "Gelişim Rotası",
       "embedUrl": ""
     },
+
     "contact": {
       "title": "İletişim",
       "infoTitle": "İLETİŞİM BİLGİLERİ",
-      "email": "batuisci@gmail.com\nbisci@etu.edu.tr",
+
+      "email": "batuisci@gmail.com",
+
+      "emails": [
+        "batuisci@gmail.com",
+        "bisci@etu.edu.tr"
+      ],
+
       "phone": "+90 507 011 52 44",
-      "address": "",
+      "address": "Ankara, Türkiye",
+
       "formTitle": "MESAJ GÖNDER",
       "formEndpoint": ""
     },
+
     "news": {
-      "title": "Haberler",
-      "intro": "",
+      "title": "Duyurular",
+      "intro": "Proje, teknik portfolyo ve site güncellemeleri.",
       "items": []
     }
   },
+
   "footer": {
-    "left": "",
+    "left": "Makine · Mekatronik · Robotik · Otomasyon",
     "right": "© 2026 Batu İşci Portfolyo"
   }
 }
