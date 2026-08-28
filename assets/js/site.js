@@ -290,9 +290,8 @@
       return renderHome(data, p);
     }
 
-    if (page === 'about') {
-      return renderAbout(data, p);
-    }
+    if (page === 'about') return renderPortfolio(data, p);
+    if (page === 'portfolio-item') return renderPortfolioItem(data);
 
     if (page === 'research') {
       return renderCardsPage(data, p, 'research');
