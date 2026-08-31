@@ -186,44 +186,44 @@
       "otherTitle": "Diğer Yayınlar / Projeler",
       "other": []
     },
-    "courses": {
-      "title": "Takım Projeleri",
-      "intro": "Mühendislik ve ekip çalışması kapsamında yer aldığım projeler.",
-      "items": [
-        {
-          "id": "proje-4",
-          "code": "İHA Projesi",
-          "title": "İnsansız Hava Aracı Geliştirme Çalışması",
-          "description": "İHA projesine ait mekanik tasarım, sistem entegrasyonu ve doğrulama çalışmalarının teknik dokümantasyonu bu bölümde sunulacaktır.",
-          "materials": [],
-          "announcementsHtml": ""
-        },
-        {
-          "id": "proje-3",
-          "code": "TOBB ETÜ Racing",
-          "title": "Formula Student · Güç Aktarma, Fren Sistemleri ve Tasarım Otomasyonu",
-          "description": "TOBB ETÜ Racing Formula Student takımında mekanik tasarım, güç aktarma ve fren sistemleri üzerinde çalışıyorum. Güç aktarım organlarında kullanılan makine elemanlarının tasarımı ve üretime uygun hale getirilmesi üzerine görev alırken; mühendislik hesaplarını ve revizyon süreçlerini hızlandırmak amacıyla C++ tabanlı otomasyon araçları geliştiriyorum.",
-          "materials": [],
-          "announcementsHtml": "<p>Çalışma alanları: mekanik tasarım, güç aktarım sistemleri, fren sistemleri, üretilebilirlik, sistem optimizasyonu ve C++ ile mühendislik otomasyonu.</p>"
-        },
-        {
-          "id": "proje-2",
-          "code": "DALGA BOZAN (TEKNOFEST 2026 EH)",
-          "title": "Elektronik Harp Sistemleri · Mekanik Tasarım",
-          "description": "TEKNOFEST Elektronik Harp projesinde ekipteki makine mühendisi olarak radyo antenlerinin Fusion 360 üzerinde modellenmesi, rüzgar yükü ve elektronik ekipman ağırlığına karşı mekanik doğrulama çalışmaları ile ortak mekanik bileşenlerin tasarımında görev aldım. Yapısal ve yük analizlerinde MATLAB tabanlı hesaplamalardan yararlandım.",
-          "materials": [],
-          "announcementsHtml": "<p>Proje Kavramsal Tasarım Raporu aşamasına kadar ilerletildi. Mekanik tasarımlar iki alt sistemin elektronik donanım ihtiyaçlarına göre uyarlandı.</p>"
-        },
-        {
-          "id": "proje-1",
-          "code": "MYTH Kart (2026)",
-          "title": "TOBB ETÜ Öğrenci İndirim Kartı Projesi",
-          "description": "TOBB ETÜ'deki ilk kapsamlı öğrenci indirim kartı projelerinden biri olan MYTH Kart'ın hayata geçirilmesinde aktif rol aldım. Öğrenciler ile yerel işletmeler arasında iş birliği kurulması, kurumsal görüşmeler, projenin pazarlanması ve operasyonel süreçlerin yürütülmesi konularında görev aldım.",
-          "materials": [],
-          "announcementsHtml": "<p>Proje süreci iletişim, zaman yönetimi, kurumsal iş birliği ve operasyonel koordinasyon konusunda deneyim kazanmamı sağladı.</p>"
-        }
-      ]
+   "courses": {
+  "title": "Takım Projeleri",
+  "intro": "Mühendislik, ürün geliştirme ve ekip çalışması kapsamında yer aldığım projeler.",
+  "items": [
+    {
+      "id": "proje-4",
+      "code": "İHA Projesi",
+      "title": "İnsansız Hava Aracı Geliştirme Çalışması",
+      "description": "İHA projesine ait detaylı teknik içerik daha sonra eklenecektir.",
+      "materials": [],
+      "announcementsHtml": ""
     },
+    {
+      "id": "proje-3",
+      "code": "TOBB ETÜ Racing",
+      "title": "Formula Student · Güç Aktarma ve Fren Sistemleri",
+      "description": "TOBB ETÜ Racing Formula Student takımında Güç Aktarma ve Fren Sistemleri ekibinde makine mühendisi olarak görev alıyorum. Güç aktarma sisteminde kullanılacak zincir dişlisini sıfırdan tasarlayarak üretilebilirliği önceliklendirdim ve ilerleyen tasarım revizyonlarında kullanılabilecek şekilde teknik dokümantasyonunu oluşturdum. Ayrıca fren sistemi tasarımında kullanılan basınç hesaplarını otomatikleştiren C++ tabanlı bir mühendislik aracı geliştirerek takımın manuel hesaplama sürecini dijitalleştirdim.",
+      "materials": [],
+      "announcementsHtml": "<p>Çalışma alanları: güç aktarma sistemleri, fren sistemleri, mekanik tasarım, üretilebilirlik, C++ ile mühendislik hesaplarının otomasyonu ve teknik dokümantasyon.</p>"
+    },
+    {
+      "id": "proje-2",
+      "code": "DALGA BOZAN · TEKNOFEST 2026",
+      "title": "Elektronik Harp Sistemleri · Mekanik Tasarım",
+      "description": "TEKNOFEST 2026 Elektronik Harp Yarışması kapsamında geliştirilen DALGA BOZAN projesinde makine mühendisi olarak görev aldım. Radyo antenlerini Autodesk Fusion 360 üzerinde modelledim ve rüzgar yükleri ile elektronik ekipman ağırlıkları altında mekanik dayanımlarını doğrulamak amacıyla MATLAB tabanlı mühendislik hesapları gerçekleştirdim. Elde edilen teknik sonuçlar takımın Kavramsal Tasarım Raporu çalışmalarında kullanıldı. Ayrıca iki alt takım tarafından kullanılan ortak mekanik bileşenleri sıfırdan tasarladım ve her tasarımı ilgili birimin elektronik sistem gereksinimlerine göre revize ettim.",
+      "materials": [],
+      "announcementsHtml": "<p>Çalışma alanları: Autodesk Fusion 360, MATLAB, mekanik tasarım, yapısal yük hesapları, sistem entegrasyonu, tasarım revizyonu ve teknik dokümantasyon.</p>"
+    },
+    {
+      "id": "proje-1",
+      "code": "MYTH Kart",
+      "title": "TOBB ETÜ Öğrenci İndirim Kartı Projesi",
+      "description": "TOBB ETÜ'de öğrencilere yönelik indirim programı olarak geliştirilen MYTH Kart'ın kurucu ekibinde operasyon süreçlerinden sorumlu olarak görev aldım. Proje kapsamında öğrenciler için yüzde 30'a varan indirimler sağlayan 100 yerel işletmeyle iş birliği kurulmasına katkıda bulundum. İşletme görüşmeleri, operasyonel koordinasyon, tanıtım ve sosyal medya çalışmalarının yürütülmesi sonucunda proje 500'ün üzerinde kayıtlı öğrenci üyeye ulaştı.",
+      "materials": [],
+      "announcementsHtml": "<p>Çalışma alanları: proje yönetimi, kurumsal iletişim, işletme iş birlikleri, operasyon yönetimi, sosyal medya ve kullanıcı kazanımı.</p>"
+    }
+  ]
+},
     "calendar": {
       "title": "Gelişim Rotası",
       "embedUrl": ""
