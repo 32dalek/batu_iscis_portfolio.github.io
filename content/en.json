@@ -1,176 +1,254 @@
 {
   "labels": {
-    "namePlaceholder": "Ad Soyad",
-    "titlePlaceholder": "Ünvan / Pozisyon",
-    "institutionPlaceholder": "Kurum / Üniversite",
-    "departmentPlaceholder": "",
-    "locationPlaceholder": "Şehir / Ülke",
-    "shortBioPlaceholder": "Kısa profil metni",
-    "websiteSection": "Akademik Web Sitesi",
-    "emptySection": "Bu bölüm içerik eklemeniz için boş bırakıldı.",
-    "itemTitle": "İçerik Başlığı",
-    "details": "DETAYLAR",
-    "menu": "Menü",
-    "course": "Ders",
-    "courseTitle": "Ders Başlığı",
-    "courseMaterials": "Ders Materyalleri",
-    "announcements": "Duyurular",
-    "calendarHint": "Google Calendar gömme bağlantısını content/tr.json içindeki pages.calendar.embedUrl alanına ekleyin.",
-    "emailPlaceholder": "e-posta@example.com",
-    "phonePlaceholder": "Telefon",
-    "addressPlaceholder": "Adres",
-    "formName": "Ad Soyad",
-    "formEmail": "E-posta",
-    "formSubject": "Konu",
-    "formMessage": "Mesaj",
-    "send": "Gönder",
-    "formSetupHint": "Formu aktif etmek için Formspree endpoint adresini content/tr.json dosyasına ekleyin.",
-    "formNotConfigured": "İletişim formu henüz yapılandırılmadı.",
-    "formSuccess": "Mesaj gönderildi.",
-    "formError": "Mesaj gönderilemedi.",
-    "footerPlaceholder": "Alt bilgi"
+    "namePlaceholder": "Full Name",
+    "titlePlaceholder": "Title / Position",
+    "institutionPlaceholder": "Institution / University",
+    "departmentPlaceholder": "Department / Program",
+    "locationPlaceholder": "City / Country",
+    "shortBioPlaceholder": "Short profile text",
+    "websiteSection": "Academic and Technical Portfolio",
+    "emptySection": "No content has been added to this section yet.",
+    "itemTitle": "Content Title",
+    "details": "DETAILS",
+    "menu": "Menu",
+    "course": "Project",
+    "courseTitle": "Project Summary",
+    "courseMaterials": "Files / Resources",
+    "announcements": "Technical Notes",
+    "portfolio": "Technical Portfolio",
+    "portfolioProject": "PROJECT",
+    "portfolioPurpose": "PURPOSE OF THE PART",
+    "portfolioBoundaryConditions": "BOUNDARY CONDITIONS AND DESIGN CONSTRAINTS",
+    "portfolioDesignProcess": "HOW WAS IT DEVELOPED?",
+    "portfolioManufacturing": "HOW WILL IT BE MANUFACTURED?",
+    "portfolioTools": "TOOLS USED",
+    "portfolioDrawing": "TECHNICAL DRAWING / CAD",
+    "portfolioBack": "BACK TO PORTFOLIO",
+    "calendarHint": "Development roadmap content has not been added yet.",
+    "emailPlaceholder": "email@example.com",
+    "phonePlaceholder": "Phone",
+    "addressPlaceholder": "Address",
+    "formName": "Full Name",
+    "formEmail": "Email",
+    "formSubject": "Subject",
+    "formMessage": "Message",
+    "send": "Send",
+    "formSetupHint": "Add the Formspree endpoint address to the content/tr.json file to activate the form.",
+    "formNotConfigured": "The contact form has not been configured yet.",
+    "formSuccess": "Message sent.",
+    "formError": "Message could not be sent.",
+    "footerPlaceholder": "Footer"
   },
   "profile": {
     "name": "Batu İşci",
-    "title": "Makine - Mekatronik Mühendisliği Öğrencisi ",
-    "institution": "TOBB ETÜ",
-    "department": "",
-    "location": "Türkiye Ankara",
-    "shortBio": "Mekatronik yan dalı yapan bir Makine Mühendisliği öğrencisiyim ve temel ilgi alanım, pratik otomasyon ve robotik sistemler geliştirmektir. Dersler ve uygulamalı mühendislik projeleriyle edindiğim güçlü teorik altyapıyı, gerçek üretim problemlerine uygulayarak somut mühendislik çözümlerine dönüştürmeyi hedefliyorum.",
+    "title": "Mechanical Engineering Student | Mechatronics Minor",
+    "institution": "TOBB University of Economics and Technology",
+    "department": "Mechanical Engineering · Mechatronics Engineering Minor Program",
+    "location": "Ankara, Türkiye",
+    "shortBio": "I am an undergraduate Mechanical Engineering student and a Mechatronics minor student at TOBB ETÜ. Within Formula Student, I work on mechanical design, powertrain and braking systems, while developing design automation and engineering calculation tools in C++. My main areas of interest are mechanical design, robotics, control and the integration of manufacturing processes with software.",
     "photo": "assets/img/pf.jpeg",
     "links": [
-              {
-                "label": "LinkedIn",
-                "url": "https://www.linkedin.com/in/batu-isci"
-              }
-            ]
+      {
+        "label": "LinkedIn",
+        "url": "https://www.linkedin.com/in/batu-isci"
+      }
+    ]
   },
   "navigation": [
-  {"key":"home","label":"Ana Sayfa","page":"home","file":"index.html"},
-  {"key":"courses","label":"Projeler"},
-  {"key":"about","label":"Deneyimler","page":"about","file":"deneyim.html"},
-  {"key":"calendar","label":"Gelişim Rotası","page":"calendar","file":"calendar.html"},
-  {"key":"iletisim","label":"İletişim","page":"contact","file":"iletisim.html"},
-  {"key":"research","label":"Araştırma","page":"research","file":"research.html"},
-  {"key":"news","label":"Duyurular","page":"news","file":"news.html"}
+    {
+      "key": "home",
+      "label": "Home",
+      "page": "home",
+      "file": "index.html"
+    },
+    {
+      "key": "courses",
+      "label": "Projects"
+    },
+    {
+      "key": "about",
+      "label": "Technical Portfolio",
+      "page": "about",
+      "file": "deneyim.html"
+    },
+    {
+      "key": "calendar",
+      "label": "Development Roadmap",
+      "page": "calendar",
+      "file": "calendar.html"
+    },
+    {
+      "key": "iletisim",
+      "label": "Contact",
+      "page": "contact",
+      "file": "iletisim.html"
+    },
+    {
+      "key": "research",
+      "label": "Work Experience",
+      "page": "research",
+      "file": "research.html"
+    },
+    {
+      "key": "news",
+      "label": "Announcements",
+      "page": "news",
+      "file": "news.html"
+    }
   ],
   "pages": {
     "home": {
-      "title": "Ana Sayfa",
-      "educationTitle": "Eğitim",
-     "education": [
-                  {
-                    "degree": "Makine Mühendisliği + Mekatronik Yan Dal",
-                    "school": "TOBB Ekonomi ve Teknoloji Üniversitesi",
-                    "year": "2028"
-                  }
-                ],
+      "title": "Home",
+      "educationTitle": "Education",
+      "education": [
+        {
+          "degree": "Bachelor's Degree in Mechanical Engineering",
+          "school": "TOBB University of Economics and Technology",
+          "year": "2024-2028"
+        },
+        {
+          "degree": "Mechatronics Engineering Minor Program",
+          "school": "TOBB University of Economics and Technology",
+          "year": "2026-2028"
+        }
+      ],
       "cvTitle": "CV",
-      "cvText": "",
+      "cvText": "You can view my current CV through this section.",
       "cvUrl": "",
-      "cvButton": "CV'Yİ AÇ",
-      "interestsTitle": "Araştırma İlgi Alanları",
-      "researchInterests": ["Saf mekanik tasarımların yazılım otomasyonu ve elektronik sistemlerle entegre edildiği mekatronik disiplini üzerinde yoğunlaşmaktır. Özellikle üretimin her basamağının otomatizasyona, donanım-yazılım entegrasyonuna dayalı ve otonom kontrol algoritmalarının oluşturduğu teknolojilere başlıca ilgi alanlarımı oluşturmaktadır. Robotik ve akıllı imalat odağında süreç optimizasyonu sağlayarak yenilikçi donanım çözümleri üretmeyi hedefliyorum."],
-      "latestResearchTitle": "SON ÇALIŞMAM",
-      "latestResearch": [],
-      "eventsTitle": "YAKLAŞAN ETKİNLİKLER",
+      "cvButton": "OPEN CV",
+      "interestsTitle": "Technical Areas of Interest",
+      "researchInterests": [
+        "Mechanical design and mechatronic system development",
+        "Robotics, automation and control systems",
+        "Engineering calculations and design automation with C++",
+        "Powertrain and braking systems",
+        "Design for manufacturability focused mechanical design",
+        "Mechanical, electronic and software integration"
+      ],
+      "latestResearchTitle": "MY LATEST TECHNICAL WORK",
+      "latestResearch": [
+        {
+          "title": "Design and Engineering Process Automation with C++",
+          "date": "2026 · Ongoing",
+          "description": "I am developing C++ based calculation and design tools to accelerate repetitive engineering calculations and revision processes in mechanical systems.",
+          "image": "assets/img/project-placeholder.svg",
+          "url": ""
+        }
+      ],
+      "eventsTitle": "UPCOMING DEVELOPMENTS",
       "upcomingEvents": [
-                          {
-                            "title": "Yakında",
-                            "date": "",
-                            "description": "Yeni etkinlikler eklenecek.",
-                            "image": "assets/img/project-placeholder.svg",
-                            "url": ""
-                          }
-                        ]
+        {
+          "title": "New technical work",
+          "date": "",
+          "description": "New project, manufacturing and technical portfolio content will be added.",
+          "image": "assets/img/project-placeholder.svg",
+          "url": ""
+        }
+      ]
     },
     "about": {
-      "title": "Deneyimler",
-      "aboutTitle": "DENEYİMLER",
-      "aboutHtml": "",
-      "educationTitle": "EĞİTİM",
-      "education": [],
-      "interestsTitle": "İLGİ ALANLARI",
-      "researchInterests": []
+      "title": "Technical Portfolio",
+      "intro": "This section presents the mechanical parts, CAD models and technical drawings I have developed as separate portfolio items. Each item explains the purpose of the part within the system, design boundary conditions, design process and planned manufacturing method.",
+      "itemTemplate": {
+        "id": "parca-adi-01",
+        "title": "Part Name",
+        "project": "Related Project",
+        "date": "2026",
+        "image": "assets/img/portfolio/parca-adi-01.png",
+        "description": "Short description of the part.",
+        "purpose": "The main function of this part within the system and why it is required.",
+        "boundaryConditions": [
+          "Forces or moments acting on the part.",
+          "Geometric layout constraints.",
+          "Connection points and assembly requirements.",
+          "Weight, stiffness or safety requirements."
+        ],
+        "designProcess": "The calculations, geometric requirements, iterations or analyses through which the part reached its final form.",
+        "manufacturing": "Material selection, manufacturing method, tolerances, required finishing operations and assembly approach.",
+        "tools": [
+          "SolidWorks",
+          "Fusion 360"
+        ]
+      },
+      "items": []
     },
-    
     "research": {
-      "title": "Araştırma",
+      "title": "Work Experience",
       "intro": "",
       "items": []
     },
-    
     "publications": {
-  "title": "Yayınlar",
-  "journalTitle": "Dergi Makaleleri",
-  "journal": [],
-  "conferenceTitle": "Konferans Yayınları",
-  "conference": [],
-  "otherTitle": "Diğer Yayınlar / Projeler",
-  "other": []
-},
-
-"courses": {
-  "title": "Projeler",
-  "intro": "",
-  "items": [
-    {
-      "id": "proje-4",
-      "code": "İHA Projesi",
-      "title": "Ders Başlığı",
-      "description": "",
-      "materials": [],
-      "announcementsHtml": ""
+      "title": "Publications",
+      "journalTitle": "Journal Articles",
+      "journal": [],
+      "conferenceTitle": "Conference Publications",
+      "conference": [],
+      "otherTitle": "Other Publications / Projects",
+      "other": []
     },
-    {
-      "id": "proje-3",
-      "code": "TOBB ETÜ Racing",
-      "title": "Ders Başlığı",
-      "description": "",
-      "materials": [],
-      "announcementsHtml": ""
+    "courses": {
+      "title": "Team Projects",
+      "intro": "Projects in which I have participated within the scope of engineering and teamwork.",
+      "items": [
+        {
+          "id": "proje-4",
+          "code": "UAV Project",
+          "title": "Unmanned Aerial Vehicle Development Project",
+          "description": "Technical documentation of the mechanical design, system integration and validation work related to the UAV project will be presented in this section.",
+          "materials": [],
+          "announcementsHtml": ""
+        },
+        {
+          "id": "proje-3",
+          "code": "TOBB ETÜ Racing",
+          "title": "Formula Student · Powertrain, Braking Systems and Design Automation",
+          "description": "I work on mechanical design, powertrain and braking systems in the TOBB ETÜ Racing Formula Student team. While contributing to the design and preparation for manufacturing of machine elements used in powertrain components, I also develop C++ based automation tools to accelerate engineering calculations and revision processes.",
+          "materials": [],
+          "announcementsHtml": "<p>Areas of work: mechanical design, powertrain systems, braking systems, manufacturability, system optimization and engineering automation with C++.</p>"
+        },
+        {
+          "id": "proje-2",
+          "code": "DALGA BOZAN (TEKNOFEST 2026 EW)",
+          "title": "Electronic Warfare Systems · Mechanical Design",
+          "description": "As the mechanical engineer on the TEKNOFEST Electronic Warfare project team, I worked on modeling radio antennas in Fusion 360, mechanical validation against wind loads and the weight of electronic equipment, and the design of shared mechanical components. I used MATLAB based calculations for structural and load analyses.",
+          "materials": [],
+          "announcementsHtml": "<p>The project progressed to the Conceptual Design Report stage. The mechanical designs were adapted according to the electronic hardware requirements of the two subsystems.</p>"
+        },
+        {
+          "id": "proje-1",
+          "code": "MYTH Card (2026)",
+          "title": "TOBB ETÜ Student Discount Card Project",
+          "description": "I played an active role in implementing MYTH Card, one of the first comprehensive student discount card projects at TOBB ETÜ. I was involved in establishing cooperation between students and local businesses, institutional meetings, project marketing and the management of operational processes.",
+          "materials": [],
+          "announcementsHtml": "<p>The project process allowed me to gain experience in communication, time management, institutional collaboration and operational coordination.</p>"
+        }
+      ]
     },
-    {
-      "id": "proje-2",
-      "code": "DALGA BOZAN (TEKNOFEST 2026 EH)",
-      "title": "Ders Başlığı",
-      "description": "",
-      "materials": [],
-      "announcementsHtml": ""
-    },
-    {
-      "id": "proje-1",
-      "code": "MYTH Kart (2026)",
-      "title": "Ders Başlığı",
-      "description": "",
-      "materials": [],
-      "announcementsHtml": ""
-    }
-  ]
-},
-    
-    
     "calendar": {
-      "title": "Takvim",
+      "title": "Development Roadmap",
       "embedUrl": ""
     },
     "contact": {
-      "title": "İletişim",
-      "infoTitle": "İLETİŞİM BİLGİLERİ",
-      "email": "batuisci@gmail.com\nbisci@etu.edu.tr",
+      "title": "Contact",
+      "infoTitle": "CONTACT INFORMATION",
+      "email": "batuisci@gmail.com",
+      "emails": [
+        "batuisci@gmail.com",
+        "bisci@etu.edu.tr"
+      ],
       "phone": "+90 507 011 52 44",
-      "address": "",
-      "formTitle": "MESAJ GÖNDER",
+      "address": "Ankara, Türkiye",
+      "formTitle": "SEND A MESSAGE",
       "formEndpoint": ""
     },
     "news": {
-      "title": "Haberler",
-      "intro": "",
+      "title": "Announcements",
+      "intro": "Project, technical portfolio and website updates.",
       "items": []
     }
   },
   "footer": {
-    "left": "",
-    "right": "© 2026 Batu İşci Portfolyo"
+    "left": "Mechanical Engineering · Mechatronics · Robotics · Automation",
+    "right": "© 2026 Batu İşci Portfolio"
   }
 }
