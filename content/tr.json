@@ -43,7 +43,7 @@
     "name": "Batu İşci",
     "title": "Makine Mühendisliği Öğrencisi | Mekatronik Yan Dalı",
     "institution": "TOBB Ekonomi ve Teknoloji Üniversitesi",
-    "department": "Makine Mühendisliği · Mekatronik Mühendisliği Yan Dal Programı",
+    "department": "Makine Mühendisliği | Mekatronik Mühendisliği Yan Dal Programı",
     "location": "Ankara, Türkiye",
     "shortBio": "TOBB ETÜ'de Makine Mühendisliği lisans ve Mekatronik yan dal öğrencisiyim. Formula Student kapsamında mekanik tasarım, güç aktarma ve fren sistemleri üzerinde çalışıyor; C++ ile tasarım otomasyonu ve mühendislik hesap araçları geliştiriyorum. Mekanik tasarım, robotik, kontrol ve üretim süreçlerinin yazılımla entegrasyonu temel ilgi alanlarımı oluşturuyor.",
     "photo": "assets/img/pf.jpeg",
@@ -78,23 +78,18 @@
       "file": "calendar.html"
     },
     {
-      "key": "iletisim",
-      "label": "İletişim",
-      "page": "contact",
-      "file": "iletisim.html"
-    },
-    {
       "key": "research",
       "label": "İş Deneyimleri",
       "page": "research",
       "file": "research.html"
     },
     {
-      "key": "news",
-      "label": "Duyurular",
-      "page": "news",
-      "file": "news.html"
+      "key": "iletisim",
+      "label": "İletişim",
+      "page": "contact",
+      "file": "iletisim.html"
     }
+
   ],
   "pages": {
     "home": {
